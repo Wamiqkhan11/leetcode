@@ -1,0 +1,25 @@
+(define/contract (letter-combinations digits)
+  (-> string? (listof string?))
+  (define digit-map
+    (hash "2" '("a" "b" "c")
+          "3" '("d" "e" "f")
+          "4" '("g" "h" "i")
+          "5" '("j" "k" "l")
+          "6" '("m" "n" "o")
+          "7" '("p" "q" "r" "s")
+          "8" '("t" "u" "v")
+          "9" '("w" "x" "y" "z")))
+  (define (combine lst1 lst2)
+    (if (null? lst1) lst2
+        (apply append
+               (map (λ (x)
+                      (map (λ (y) (string-append x y)) lst2))
+                    lst1))))
+  (if (string=? digits "")
+      '()
+      (let loop ((idx 0) (result '("")))
+        (if (= idx (string-length digits))
+            result
+            (let* ((d (substring digits idx (+ idx 1)))
+                   (letters (hash-ref digit-map d '())))
+              (loop (+ idx 1) (combine result letters)))))))
