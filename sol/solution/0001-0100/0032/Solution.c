@@ -1,0 +1,15 @@
+int longestValidParentheses(char *s) {
+    int n = (int)strlen(s), ans = 0, left = 0, right = 0;
+    for (int i = 0; i < n; ++i) {
+        if (s[i] == '(') left++; else right++;
+        if (left == right) { if (2*right > ans) ans = 2*right; }
+        else if (right > left) left = right = 0;
+    }
+    left = right = 0;
+    for (int i = n - 1; i >= 0; --i) {
+        if (s[i] == ')') right++; else left++;
+        if (left == right) { if (2*left > ans) ans = 2*left; }
+        else if (left > right) left = right = 0;
+    }
+    return ans;
+}
